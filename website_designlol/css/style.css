@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Passion+One');
+body {
+  background-image: url("http://i.imgur.com/8erZe7x.png");
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+a:visited {
+  color: #333333;
+}
+
+a:link {
+  color: #333333;
+}
+
+.topnav {
+  background-color: #333333;
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  width: 400px;
+  height: 100px;
+  box-shadow: 2px 2px 10px black;
+  transition: background-color 0.6s ease;
+  z-index: 9;
+}
+
+#topnav {
+  text-align: center;
+  font-family: Montserrat;
+}
+
+#home {
+  box-sizing: border-box;
+  border-top: 10px solid #99ff33;
+  width: 100%;
+  overflow: hidden;
+}
+
+#esl {
+  box-sizing: border-box;
+  border-top: 10px solid #1aa3ff;
+  width: 100%;
+  overflow: hidden;
+}
+
+#na {
+  box-sizing: border-box;
+  border-top: 10px solid #e60000;
+  overflow: hidden;
+  width: 100%;
+}
+
+#eu {
+  box-sizing: border-box;
+  border-top: 10px solid yellow;
+  overflow: hidden;
+  width: 100%;
+}
+
+#title {
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-size: 30px;
+  border-top: 10px solid white;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+/* #title #top {
+  background: -webkit-linear-gradient(white,grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+} */
+
+.topnav:hover {
+  background-color: #595959;
+}
+
+#nav01 {
+  position: absolute;
+  height: 1900px;
+  left: 0px;
+}
+
+#nav02 {
+  position: absolute;
+  height: 1900px;
+}
+
+#nav03 {
+  position: absolute;
+  height: 1900px;
+}
+
+#nav04 {
+  position: absolute;
+  height: 1900px;
+}
+
+#nav05 {
+  position: absolute;
+  height: 1900px;
+}
+
+#overlayhome {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 1800px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-top: -4px;
+}
+
+#overlayesl {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 1800px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#overlayeu {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 1800px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#overlaytitle {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 1800px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#overlayna {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 1800px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#currentimg {
+  width: 100%;
+  box-shadow: 1px 1px 15px;
+  margin-top: 60px;
+}
+
+#currentimg2 {
+width: 100%;
+  box-shadow: 1px 1px 15px;
+  margin-top: 60px;
+}
+
+#currentimg3 {
+width: 100%;
+  box-shadow: 1px 1px 15px;
+  margin-top: 60px;
+}
+
+#currentimg4 {
+width: 100%;
+  box-shadow: 1px 1px 15px;
+  margin-top: 60px;
+}
+
+#home1 {
+  margin-top: 60px;
+  width: 95%;
+  box-shadow: 1px 1px 15px;
+}
+
+#hometext1 {
+  margin-bottom: 0px;
+}
+
+#home2 {
+  margin-top: 0px;
+  box-shadow: 1px 1px 15px;
+  width: 95%;
+}
+
+#hometext2 {
+  margin-bottom: 0px;
+}
+
+#readmore1 {
+  color: #33333;
+  background-color: #99ff33;
+  border: 10px solid #99ff33;
+}
+
+#readmore2 {
+  color: #33333;
+  background-color: #99ff33;
+  border: 10px solid #99ff33;
+}
+
+#home3 {
+  margin-top: 0px;
+  box-shadow: 1px 1px 15px;
+  width: 95%;
+}
+
+#hometext3 {
+  margin-bottom: 0px;
+}
+
+#readmore3 {
+  color: #33333;
+  background-color: #99ff33;
+  border: 10px solid #99ff33;
+}
+
+#home4 {
+  margin-top: 0px;
+  box-shadow: 1px 1px 15px;
+  width: 95%;
+}
+
+#hometext4 {
+  margin-bottom: 0px;
+}
+
+#readmore4 {
+  color: #33333;
+  background-color: #99ff33;
+  border: 10px solid #99ff33;
+}
+
+#esl1 {
+  margin-top: 60px;
+  box-shadow: 1px 1px 15px;
+  width: 95%;
+}
+
+#esltext1 {
+  margin-bottom: 0px;
+}
+
+#readmore1esl {
+  color: #33333;
+  background-color: #1aa3ff;
+  border: 10px solid #1aa3ff;
+}
+
+#esl2 {
+  margin-top: 0px;
+  width: 350px;
+  box-shadow: 1px 1px 15px;
+  width: 95%;
+}
+
+#esltext2 {
+  margin-bottom: 0px;
+}
+
+#readmore2esl {
+  color: #33333;
+  background-color: #1aa3ff;
+  border: 10px solid #1aa3ff;
+}
+
+#esl3 {
+  margin-top: 0px;
+  width: 95%;
+  box-shadow: 1px 1px 15px;
+}
+
+#esltext3 {
+  margin-bottom: 0px;
+}
+
+#readmore3esl {
+  color: #33333;
+  background-color: #1aa3ff;
+  border: 10px solid #1aa3ff;
+}
+
+#esl4 {
+  margin-top: 0px;
+  width: 95%;
+  box-shadow: 1px 1px 15px;
+}
+
+#esltext4 {
+  margin-bottom: 0px;
+}
+
+#readmore4esl {
+  color: #33333;
+  background-color: #1aa3ff;
+  border: 10px solid #1aa3ff;
+}
+
+#eu1 {
+  margin-top: 60px;
+  width: 95%;
+  box-shadow: 1px 1px 15px;
+  
+}
+
+#eutext1 {
+  margin-bottom: 0px;
+}
+
+#readmore1eu {
+  color: #33333;
+  background-color: yellow;
+  border: 10px solid yellow;
+}
+
+#eu2 {
+  margin-top: 0px;
+  width: 95%;
+  box-shadow: 1px 1px 15px;
+}
+
+#eutext2 {
+  margin-bottom: 0px;
+}
+
+#readmore2eu {
+  color: #33333;
+  background-color: yellow;
+  border: 10px solid yellow;
+}
+
+#eu3 {
+  margin-top: 0px;
+  width: 95%;
+  box-shadow: 1px 1px 15px;
+}
+
+#eutext3 {
+  margin-bottom: 0px;
+}
+
+#readmore3eu {
+  color: #33333;
+  background-color: yellow;
+  border: 10px solid yellow;
+}
+
+#eu4 {
+  margin-top: 0px;
+  width: 95%;
+  box-shadow: 1px 1px 15px;
+}
+
+#eutext4 {
+  margin-bottom: 0px;
+}
+
+#readmore4eu {
+  color: #333333;
+  background-color: yellow;
+  border: 10px solid yellow;
+}
+
+#na1 {
+  margin-top: 60px;
+  width: 95%;
+  box-shadow: 1px 1px 15px;
+}
+
+#natext1 {
+  margin-bottom: 0px;
+}
+
+#readmore1na {
+  color: #33333;
+  background-color: #e60000;
+  border: 10px solid #e60000;
+}
+
+#na2 {
+  margin-top: 0px;
+  width: 95%;
+  box-shadow: 1px 1px 15px;
+}
+
+#natext2 {
+  margin-bottom: 0px;
+}
+
+#readmore2na {
+  color: #33333;
+  background-color: #e60000;
+  border: 10px solid #e60000;
+}
+
+#na3 {
+  margin-top: 0px;
+  width: 95%;
+  box-shadow: 1px 1px 15px;
+}
+
+#natext3 {
+  margin-bottom: 0px;
+}
+
+#readmore3na {
+  color: #33333;
+  background-color: #e60000;
+  border: 10px solid #e60000;
+}
+
+#na4 {
+  margin-top: 0px;
+  width: 95%;
+  box-shadow: 1px 1px 15px;
+}
+
+#natext4 {
+  margin-bottom: 0px;
+}
+
+#readmore4na {
+  color: #33333;
+  background-color: #e60000;
+  border: 10px solid #e60000;
+}
